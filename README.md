@@ -1,8 +1,9 @@
 # Scrape files containing metrics
 
 ## Summary
+Create dockerized NGINX/Prometheus to scrape files containing metrics
 - NGINX metrics endpoint for hosting metrics-files
-- Prometheus configured to scrape metrics from dockersized NGINX
+- Prometheus configured to scrape metrics from dockerized NGINX
 
 ## Assumptions
 Running Docker Desktop or equivalent, `docker-compose` also installed 
