@@ -8,4 +8,4 @@ services:
     command:
     - --config.file=/etc/prometheus/prometheus.yml
     volumes:
-    - ./etc/prometheus.yml:/etc/prometheus/prometheus.yml:ro
+    - ./src/etc/prometheus.yml:/etc/prometheus/prometheus.yml:ro
