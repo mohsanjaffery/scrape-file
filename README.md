@@ -1,7 +1,9 @@
-# Scrape files containing metrics
+# Scrape files containing Prometheus metrics
 
 ## Summary
-Create dockerized NGINX/Prometheus to scrape files containing `promtool` validated metric data
+This is an MVP which illustrates how to scrape files containing `promtool` validated metric data
+
+Create dockerized NGINX/Prometheus
 - NGINX with Prometheus-friendly metrics endpoint
 - Prometheus with dockersized NGINX scrape-target
 
